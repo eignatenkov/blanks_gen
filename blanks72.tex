@@ -1,0 +1,50 @@
+\input{blanksheader.tex}
+\usepackage{multicol}
+\usepackage{tabularx}
+\newdimen{\blankheight}
+\setlength{\blankheight}{\textheight * \real{0.1671} - {\baselineskip * \real{2}}}
+\newdimen{\blankwidth}
+\setlength{\blankwidth}{\textwidth * \real{0.33} - 13.5em}
+\newcommand{\cell}{\vspace{0.3em}\hspace{2em} Команда \makebox[2em]{\hrulefill}\hspace{\blankwidth} Вопрос \arabic{Questions}\stepcounter{Questions} \vspace{\blankheight}}
+\begin{document}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X}
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+
+\end{tabularx}
+\clearpage
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X}
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+
+\end{tabularx}
+\clearpage
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X}
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+
+\end{tabularx}
+\clearpage
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X}
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+\cell & \cell & \cell \\ \hline
+
+\end{tabularx}
+\end{document}
+
