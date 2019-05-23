@@ -45,7 +45,7 @@ def main():
         numbers = numbers + [int(x) for x in args.addteams.split(',')]
 
     # team_names = [u'Алые Паруса', u'Берлитанты', u'Наш Вариант Лучше', u'Палладины', u'Понты Пилата', u'Псевдопептиды']
-    team_names = [u'Cherchez la Panda']
+    team_names = [u'Алые Паруса', u'Ненадёжные']
 
     new_filenames = []
     for i in numbers:
